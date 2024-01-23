@@ -33,15 +33,20 @@ https://m-h-a.itch.io/carsgame
 
 כך לאחר שאותו אוייב ספציפי כבר לא יהיה רלוונטי הוא יושמד.
 
+לשחקן יש סריפט של GameOver וסריפט של DestroyOnTrigger2D:
+קוד DestroyOnTrigger2D:
+
+![image](https://github.com/hodwys/CarGameH/assets/92233601/b5f4f3d5-fc4f-4923-9fd5-b7198fedffb8)
+
+הפונקציה בודקת אם השחקן התנגש ברכיב שהוגדר ואם כן השחקן מושמד.
 
 
+קוד GameOver:
+
+![image](https://github.com/hodwys/CarGameH/assets/92233601/5cceb7f2-6be2-4569-bb08-6fab0445b7ca)
 
 
-
-
-
-
-
-השתמשנו במה שלמדנו בשיעור 
+הפונקציה בודקת אם השחקן התנגש ברכיב שהוגדר ואם כן מודפס שהמשחק נגמר והמשחק נעצר.
+במטלה זאת השתמשתי במה שלמדנו בשיעור. 
 
 
