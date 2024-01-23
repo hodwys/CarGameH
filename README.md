@@ -10,4 +10,38 @@ https://m-h-a.itch.io/carsgame
 
 
 
-במשחק זה המטרה היא לנהוג מבלי להתנגש במכוניות הבאות ממול.
+במשחק זה המטרה היא לנהוג מבלי להתנגש במכוניות הבאות ממול. ברגע שהשחקן מתנגש ב"אוייבים" אז השחקן מושמד והמשחק נגמר.
+לכל אחד מהאוייבים קיים Collider 2D, Rigidbody 2D, Sprite Renderer, Move, Time Spawner Random
+לרכיבי ה  Move וה Time Spawner Random הוספתי להם סריפטים.
+
+רכיב הMove: מעדכן את המיקום של המודל, נדרש להוסיף בשביל ה Time Spawner Random
+
+![image](https://github.com/hodwys/CarGameH/assets/92233601/f39efb7a-0979-49a1-af3a-d259d3589c65)
+
+
+רכיב הTime Spawner Rando: 
+הגדרתי 2 משתנים מינים ומקסימום זמנים שצריך לחכות בין כל יצירת אוייב.
+![image](https://github.com/hodwys/CarGameH/assets/92233601/a4b88a9b-eb60-4e11-be6d-db57d7cc34e1)
+
+
+בפונקציה זו נוצר האוייב בזמן רנדומלי בין המינימום למקסימום זמן.
+![image](https://github.com/hodwys/CarGameH/assets/92233601/d2ae4c41-73f3-47cf-8e87-a45198a844e7)
+
+על מנת שלא יווצרו מלא אויביים שאנחנו לא צריכים וגם כתוצאה מזה המחשב יתקע בשלב מסויים נרדש להשמיד את האוייבים לאחר שיצאו מגבולות המלצמה ולכן הוספתי את התנאי הבא:
+
+![image](https://github.com/hodwys/CarGameH/assets/92233601/63b6e57a-dfd6-4a4e-827f-2f900ae07a52)
+
+כך לאחר שאותו אוייב ספציפי כבר לא יהיה רלוונטי הוא יושמד.
+
+
+
+
+
+
+
+
+
+
+השתמשנו במה שלמדנו בשיעור 
+
+
