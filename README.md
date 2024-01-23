@@ -5,7 +5,8 @@ https://m-h-a.itch.io/carsgame
 
 תמונת רקע:
 
-![image](https://github.com/hodwys/CarGameH/assets/92233601/0db92b65-9ff3-4a87-a2f4-1b9f0d976ca6)
+![image](https://github.com/hodwys/CarGameH/assets/92233601/59e8e511-a6f3-4766-a104-c20dae0b8376)
+
 
 
 
